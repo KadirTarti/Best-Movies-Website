@@ -1,4 +1,4 @@
-# The BEst Movies of Recent Times
+# The Best Movies of Recent Times
 
 https://best-movie-of-recent-times.netlify.app/
 
