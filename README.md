@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+# The BEst Movies of Recent Times
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://best-movie-of-recent-times.netlify.app/
 
-## Available Scripts
+## Description 🟢
 
-In the project directory, you can run:
+Hello everyone! In this project, some of the movies on the list of the best movies of recent times on the imdb website were shot from a specific database and printed on the screen. You can search for a movie by entering the movie name in the 'Search Movie' search bar at the top. The feature of this search is that it filters the data according to the entered input and displays it on the screen.
+When you click on the card structures containing the movies, an information card opens. This card displays the name of the film's director, shooting year, IMDb rating, the names of its writers and a 'Go to Imdb' button. When users click on this button, they are directed to the IMDb page related to that movie.
 
-### `npm start`
+## Outcome 🎥
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![bestmoviesofrecenttime (1)](https://github.com/KadirTarti/KadirTarti/assets/150926891/5189db9e-5d08-4da2-b257-159ab3c82275)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Skeleton 👷
 
-### `npm test`
+```
+C-link E-markt (folder)
+|
+├── public
+│     └── index.html
+├── src
+│   ├── App.js
+│   ├── assests
+│   ├── components
+│   │    ├── CardContainer.jsx
+│   │    ├── Header.jsx
+│   │    └── PlayerCard.jsx
+│   ├── index.css
+│   ├── index.js
+│   └── helpers
+│        └── data.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project Planning & Management
+Epic User Story: Developing a Shopping Cart Application 🎖️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## User Stories:
 
-### `npm run eject`
+1️-) Displaying Products:
+  - Develop elements to showcase existing product
+  - Retrieve and list items from the Mock API
+  - Customize the presentation of products using CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2-) Adding New Products 
+  - Create components enabling users to introduce new products
+  - Integrate mechanisms to store new products within the Mock API
+  - Conduct validation checks on the product addition form.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3-) Managing Shopping Cart Activities
+  - Construct elements allowing users to observe their shopping carts
+  - Retrieve and exhibit products from the Mock API specifically for the shopping cart
+  - Implement functions to modify and eliminate quantities of products in the cart
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4-) Interface Design and Improvements
+  - Craft the holistic user interface and enhance usability.
+  - Apply necessary adjustments and advancements based on user input
+  - Ensure adaptability to mobile devices through responsive design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5️-) Creating an About Section
+  - Develop and execute the arrangement for the About section
+  - Incorporate pertinent content such as personal information
+  - Stylize the About section using CSS styles
 
-## Learn More
+6️-) Establishing the Primary Page
+  - Arrange the foundational layout for the main landing page
+  - Integrate navigation links to facilitate movement to other sections
+  - Design and introduce any supplementary functionalities on the primary page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7️-) Enabling a New Product Entry Page
+  - Formulate a structure for users to input details of new product
+  - Implement validation measures within the new productform
+  - Enable functionality to submit data pertaining to new product
 
-### Code Splitting
+8️-) Deploying a Product Listing Page
+  - Showcase a compilation of available products fetched from the Mock API
+  - Introduce options for filtering or sorting within the product list
+  - Incorporate buttons or hyperlinks for accessing detailed information or making updates to products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Additional Requirement: ➕
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application should have a responsive design.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Objective :
 
-### Advanced Configuration
+Build a Shopping Cart App using ReactJS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### At the end of the project, following topics are to be covered;
 
-### Deployment
+- HTML, CSS, JS
+- ReactJS
+- React Router & Hooks
+- Mock API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### At the end of the project, we will be able to;
 
-### `npm run build` fails to minify
+⭐ improve coding skills within HTML & CSS & JS & ReactJS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Learning to fetch data from mock api and add data to api
+
+⭐ use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+
+## Informaitonal video! ℹ️
+How to use Mock API ? -> <a href="https://www.youtube.com/watch?v=i_Gvlp83GMk" target="_blank"> Watch the video! </a>
+
+## MockApi 📦
+Go to the Mock API web page and start coding with the free API! -> <a href="https://mockapi.io/" target="_blank">MockApi</a>
+
+
+## Contributing & Collaborate :muscle:
+All contributions from different perspectives greatly enrich my projects! Whether you have new project ideas or contributions to improve my current projects, all contributions are invaluable. Feel free to open a topic or submit a pull request with your suggested changes to start a dialogue about your thoughts. Every contribution plays a vital role in my progress. so thank you for being an integral part of my community!
+
+
+**<p align="center"> 💻 Happy Coding 💻</p>** 
