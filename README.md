@@ -14,7 +14,7 @@ When you click on the card structures containing the movies, an information card
 ## Project Skeleton 👷
 
 ```
-C-link E-markt (folder)
+Best-Movies-Website (folder)
 |
 ├── public
 │     └── index.html
@@ -43,46 +43,15 @@ Epic User Story: Developing a Shopping Cart Application 🎖️
 
 ## User Stories:
 
-1️-) Displaying Products:
-  - Develop elements to showcase existing product
-  - Retrieve and list items from the Mock API
-  - Customize the presentation of products using CSS
+1-) As a user, I want to be able to search for a movie by its name so that I can quickly find information about it.
 
-2-) Adding New Products 
-  - Create components enabling users to introduce new products
-  - Integrate mechanisms to store new products within the Mock API
-  - Conduct validation checks on the product addition form.
+2-) As a user, I want to be able to click on a movie card to view detailed information about the movie, including its director, shooting year, IMDb rating, and writers.
 
-3-) Managing Shopping Cart Activities
-  - Construct elements allowing users to observe their shopping carts
-  - Retrieve and exhibit products from the Mock API specifically for the shopping cart
-  - Implement functions to modify and eliminate quantities of products in the cart
+3-) As a user, I want to see the IMDb rating of each movie so that I can quickly gauge its popularity and quality.
 
-4-) Interface Design and Improvements
-  - Craft the holistic user interface and enhance usability.
-  - Apply necessary adjustments and advancements based on user input
-  - Ensure adaptability to mobile devices through responsive design
+4-)As a user, I want to have easy access to the IMDb page of a movie so that I can explore further details and reviews about it.
 
-5️-) Creating an About Section
-  - Develop and execute the arrangement for the About section
-  - Incorporate pertinent content such as personal information
-  - Stylize the About section using CSS styles
-
-6️-) Establishing the Primary Page
-  - Arrange the foundational layout for the main landing page
-  - Integrate navigation links to facilitate movement to other sections
-  - Design and introduce any supplementary functionalities on the primary page
-
-
-7️-) Enabling a New Product Entry Page
-  - Formulate a structure for users to input details of new product
-  - Implement validation measures within the new productform
-  - Enable functionality to submit data pertaining to new product
-
-8️-) Deploying a Product Listing Page
-  - Showcase a compilation of available products fetched from the Mock API
-  - Introduce options for filtering or sorting within the product list
-  - Incorporate buttons or hyperlinks for accessing detailed information or making updates to products
+5-)As a user, I want the search feature to filter the movie data dynamically as I type, so that I can easily find the movie I'm looking for without having to scroll through a long list.
 
 
 ## Additional Requirement: ➕
@@ -90,16 +59,10 @@ Epic User Story: Developing a Shopping Cart Application 🎖️
 The application should have a responsive design.
 
 
-## Objective :
+## Objective 🔍
 
-Build a Shopping Cart App using ReactJS.
+Build a Card-Movie App using ReactJS.
 
-### At the end of the project, following topics are to be covered;
-
-- HTML, CSS, JS
-- ReactJS
-- React Router & Hooks
-- Mock API
 
 ### At the end of the project, we will be able to;
 
@@ -110,14 +73,7 @@ Build a Shopping Cart App using ReactJS.
 ⭐ use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 
-## Informaitonal video! ℹ️
-How to use Mock API ? -> <a href="https://www.youtube.com/watch?v=i_Gvlp83GMk" target="_blank"> Watch the video! </a>
-
-## MockApi 📦
-Go to the Mock API web page and start coding with the free API! -> <a href="https://mockapi.io/" target="_blank">MockApi</a>
-
-
-## Contributing & Collaborate :muscle:
+## Contributing & Collaborate 💪
 All contributions from different perspectives greatly enrich my projects! Whether you have new project ideas or contributions to improve my current projects, all contributions are invaluable. Feel free to open a topic or submit a pull request with your suggested changes to start a dialogue about your thoughts. Every contribution plays a vital role in my progress. so thank you for being an integral part of my community!
 
 
